@@ -31,4 +31,5 @@ class SuperApp(App):
     main.kv.add_widget(pages[0].kv)
     return main.kv
   
-SuperApp().run()
+super_app = SuperApp()
+super_app.run()
